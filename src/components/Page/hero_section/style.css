@@ -1,0 +1,21 @@
+/* Infinite typing effect */
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 100%;
+  }
+  100% {
+    width: 0;
+  }
+}
+
+.typing-text {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+
+  width: 0; /* Start with width 0 for typing effect */
+  animation: typing 5s steps(30) infinite; /* Infinite typing */
+}
