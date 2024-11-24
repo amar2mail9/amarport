@@ -70,7 +70,7 @@ const Skills = () => {
     <section className="py-12 w-10/12 mx-auto ">
       <div className="container mx-auto">
         <motion.h2
-          className="text-3xl font-semibold text-center text-gray-900   mb-8"
+          className="text-4xl bg-gray-700 py-5 rounded-xl hover:bg-orange-500 duration-300 font-semibold text-center text-gray-100   mb-8 "
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           viewport={{ once: true }}
