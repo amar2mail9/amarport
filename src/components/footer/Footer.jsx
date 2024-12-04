@@ -1,5 +1,6 @@
 import React from "react";
 import { FaGithub, FaLinkedin, FaTwitter, FaInstagram } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -15,24 +16,24 @@ const Footer = () => {
 
         {/* Social Media Links Section */}
         <div className="flex space-x-6 justify-center sm:justify-end">
-          <a
-            href="https://github.com/your-username"
+          <Link
+            to="https://github.com/amar2mail9"
             target="_blank"
             rel="noopener noreferrer"
             className="text-2xl hover:text-gray-400"
           >
             <FaGithub />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/your-username/"
+          </Link>
+          <Link
+            to="www.linkedin.com/in/amarkumar96085"
             target="_blank"
             rel="noopener noreferrer"
             className="text-2xl hover:text-gray-400"
           >
             <FaLinkedin />
-          </a>
+          </Link>
           <a
-            href="https://twitter.com/your-username"
+            href="https://twitter.com/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-2xl hover:text-gray-400"
@@ -40,7 +41,7 @@ const Footer = () => {
             <FaTwitter />
           </a>
           <a
-            href="https://www.instagram.com/your-username"
+            href="https://www.instagram.com/amar96085"
             target="_blank"
             rel="noopener noreferrer"
             className="text-2xl hover:text-gray-400"

@@ -13,7 +13,7 @@ export default function HeroSection() {
         initial={{ opacity: 0, x: -100 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 1 }}
-        viewport={{ once: true }} 
+        viewport={{ once: true }}
       >
         <h3 className="text-3xl md:text-4xl font-semibold">HELLO</h3>
 
@@ -78,7 +78,10 @@ export default function HeroSection() {
         <img
           src="https://polytechub.in/wp-content/uploads/2024/11/Amar.png" // Replace with your actual image URL
           alt="Web Developer"
-          className="w-3/4 sm:w-1/2 md:w-2/3 h-auto rounded-full shadow-md"
+          className="w-3/4 sm:w-1/2 md:w-2/3 h-auto rounded-lg   "
+          style={{
+            boxShadow: "0 0 8px 4px #191919",
+          }}
         />
       </motion.div>
     </div>

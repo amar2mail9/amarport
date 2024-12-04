@@ -6,6 +6,7 @@ import About from "../AboutUs/About";
 import Skills from "../MySkills/Skills";
 import Contact_Us from "../contacts_us/Contact_Us";
 import Project from "../Projects/Project";
+import ContactDetails from "../contacts_us/ContactDetails";
 
 export default function Home() {
   return (
@@ -16,11 +17,11 @@ export default function Home() {
         <About />
         <Skills />
 
-        <Contact_Us />
-
         <div className="py-6">
           <Project />
         </div>
+
+        <ContactDetails />
       </section>
     </Layout>
   );
