@@ -15,6 +15,10 @@ function Navbar() {
     { name: "About Us", href: "/about-us" },
     { name: "Contact Us", href: "/contact-us" },
     { name: "Skills", href: "/my-skills" },
+    {
+      name:"Projects",
+      href:'/projects'
+    },
     { name: "Download CV", href: "/download-cv" },
   ];
 
