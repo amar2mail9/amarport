@@ -76,7 +76,7 @@ export default function HeroSection() {
         className="w-full md:w-1/3 flex justify-center"
       >
         <img
-          src="https://polytechub.in/wp-content/uploads/2024/11/Amar.png" // Replace with your actual image URL
+          src="http://polytechub.in/wp-content/uploads/2025/02/WhatsApp-Image-2025-01-22-at-4.21.14-PM.jpeg" // Replace with your actual image URL
           alt="Web Developer"
           className="w-3/4 sm:w-1/2 md:w-2/3 h-auto rounded-lg   "
           style={{

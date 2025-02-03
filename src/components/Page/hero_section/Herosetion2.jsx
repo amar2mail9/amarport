@@ -15,7 +15,7 @@ export default function HeroSection2() {
             viewport={{ once: true }}
           >
             <img
-              src="https://polytechub.in/wp-content/uploads/2024/11/Amar.png" // Replace with your image URL
+              src="http://polytechub.in/wp-content/uploads/2025/02/WhatsApp-Image-2025-01-22-at-4.21.14-PM.jpeg" // Replace with your image URL
               alt="Amar"
               className="w-3/4 sm:w-1/2 md:w-full rounded-lg border-2 border-gray-300"
             />
